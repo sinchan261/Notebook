@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="notebook.css"
+</head>
+<body>
+    <nav>    
+        <section id="paragraph">
+            <form id="video_link">
+                <input id="vide" type="text" placeholder="Enter The next Topic">
+                <button id="submi"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </section>
+    </nav>
+    <main id="main">
+        <div id="right">
+            <iframe id="content" height="400px" src="https://www.youtube.com/embed/SHT0y9Gq_rk?si=3mt13ecbPgVIkgem" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div id="input_parent">
+                <form id="parent_form">
+                    <input id ="topic" type="text" placeholder="Note Topic">
+                    <input id="text" type="text" placeholder="Write Down The Note">
+                    <button id="submit"><i class="fa-solid fa-check"></i></button>
+                </form>
+                <button id="New_note"><i class="fa-solid fa-pen-to-square"></i>ADD NOTE</button>
+            </div>
+        </div>
+        <div id="left" class="scrollable-div">
+        </div>
+
+    </main>
+    <footer>
+        <div id="foot"> 
+            
+             </div>
+             <submit id="cleaner"style="color:orange, "><i class="fa-solid fa-broom"></i>clean</submit>
+            </footer>
+    
+    <script src="notebook.js">
+       
+    </script>
+</body>
+</html>
